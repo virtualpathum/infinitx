@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "309950002230",
+    "firebase_url": "https://infinitx-framework-990.firebaseio.com",
+    "project_id": "infinitx-framework-990",
+    "storage_bucket": "infinitx-framework-990.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309950002230:android:bed78250d878390f",
+        "android_client_info": {
+          "package_name": "com.lk.infinitx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309950002230-trbu8t9h5nnd3iha1bjld1asidtij3i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOHQIGvPK8Vbv2GnTAMan4O5EqPUsd1p0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

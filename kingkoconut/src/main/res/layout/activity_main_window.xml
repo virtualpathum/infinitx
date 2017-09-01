@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lk.infinitx.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlHousehold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:background="@android:color/holo_blue_bright"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tvHousehold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            android:text="@string/household"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlGrocery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:background="@android:color/holo_green_light"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tvGrocery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/groceries"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlHardware"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:background="@android:color/holo_orange_light"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tvHardware"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hardware"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlForeign"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:background="@android:color/holo_red_light"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tvForeign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/foreign"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+</LinearLayout>
