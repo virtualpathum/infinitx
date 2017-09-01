@@ -2,23 +2,21 @@ package com.lk.infinitx.layout;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.lk.infinitx.R;
-import com.lk.infinitx.animation.FlipMainActivity;
+import com.lk.infinitx.core.BaseActivity;
 import com.lk.infinitx.location.LocationActivity;
 
 /**
  * Created by virtualpathum on 15/7/2017.
  */
 
-public class MainWindowActivity extends AppCompatActivity {
+public class MainWindowActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,4 +87,14 @@ public class MainWindowActivity extends AppCompatActivity {
         });
     }
 
+    @NonNull
+    @Override
+    protected Object createComponent() {
+        return null;
+    }
+
+    @Override
+    public void inject() {
+
+    }
 }
